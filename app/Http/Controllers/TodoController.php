@@ -48,5 +48,10 @@ class TodoController extends Controller
         );
     }
 
+    public function edit(Request $request )
+    {
+        return view('todo.edit');
+    }
+
 
 }

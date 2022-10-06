@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-10 m-auto">
         <div class="card">
-            <div class="card-header"><a href="/todos" class="btn btn-danger">Home</a></div>
+            <div class="card-header "><p class="h5">Home</p></div>
 			<div class="card-body">
 				<table class="table">
                     <thead>
@@ -42,7 +42,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td class="child{{$todo->id}}"><button class="btn btn-success" id="edit-button-{{$todo->id}}">編集</button></td>
+                                <td class="child{{$todo->id}}"><a class="btn btn-success" href="/todos/edit" id="edit-button-{{$todo->id}}">編集</a></td>
                                 <td class="child{{$todo->id}}">
                                     <button class="btn btn-danger">削除</button>
                                 </td>
